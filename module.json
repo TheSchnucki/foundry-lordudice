@@ -14,7 +14,7 @@
 		}
   ],
 
-  "version": "0.0.2",
+  "version": "0.0.4",
 	"compatibility": {
 		"minimum": "9",
 		"verified": "10"
@@ -28,6 +28,6 @@
   ],
 
   "url": "https://github.com/TheSchnucki/foundry-lordudice",
-  "manifest": "https://github.com/TheSchnucki/foundry-lordudice/releases/download/0.0.2/module.json",
-  "download": "https://github.com/TheSchnucki/foundry-lordudice/releases/download/0.0.2/module.zip"
+  "manifest": "https://github.com/TheSchnucki/foundry-lordudice/releases/download/0.0.4/module.json",
+  "download": "https://github.com/TheSchnucki/foundry-lordudice/releases/download/0.0.4/module.zip"
 }
