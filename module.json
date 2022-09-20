@@ -13,15 +13,15 @@
 				"name": "dice-so-nice"
 			}
 	],
-	"version": "0.0.7",
+	"version": "0.0.8",
 	"compatibility": {
 		"minimum": "9",
 		"verified": "10"
 	},
 
 	"url": "https://github.com/TheSchnucki/foundry-lordudice",
-	"manifest": "https://github.com/TheSchnucki/foundry-lordudice/releases/download/0.0.7/module.json",
-	"download": "https://github.com/TheSchnucki/foundry-lordudice/releases/download/0.0.7/module.zip",
+	"manifest": "https://github.com/TheSchnucki/foundry-lordudice/releases/download/0.0.8/module.json",
+	"download": "https://github.com/TheSchnucki/foundry-lordudice/releases/download/0.0.8/module.zip",
 	"license": "LICENSE",
 	"readme": "README.md"
 }
