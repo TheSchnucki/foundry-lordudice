@@ -36,7 +36,7 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
        "☀"
      ],
      system: "LCD - Dark Deeds"
-	 
+
    });
 
    dice3d.addDicePreset({
@@ -48,7 +48,7 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
        "4"
      ],
      system: "LCD - Dark Deeds"
-	 
+
    },"d4");
 
    dice3d.addDicePreset({
@@ -74,7 +74,7 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
      system: "LCD - Dark Deeds",
 	 fontScale: 1.3
    },"df");
-   
+
    dice3d.addDicePreset({
      type: "d8",
 	      labels: [
@@ -89,7 +89,7 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
      ],
      system: "LCD - Dark Deeds"
    },"d8");
-   
+
    dice3d.addDicePreset({
      type: "d10",
 	      labels: [
@@ -104,7 +104,7 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
        "9",
        "10"
      ],
-     system: "LCD - Dark Deeds" 
+     system: "LCD - Dark Deeds"
    },"d10");
 
    dice3d.addDicePreset({
@@ -125,7 +125,7 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
      ],
      system: "LCD - Dark Deeds"
    },"d12");
-   
+
    dice3d.addDicePreset({
      type: "d100",
 	      labels: [
@@ -142,13 +142,13 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
      ],
      system: "LCD - Dark Deeds"
    },"d10");
-   
-   
+
+
   dice3d.addTexture("copper", {
     name: "🐸 Dark Copper",
     composite: "multiply",
-    source: "modules/lordudice/graphics/dice/rough.webp",
-	bump: "modules/lordudice/graphics/dice/rough-bump.webp"
+    source: "modules/foundry-lordudice/graphics/dice/rough.webp",
+	bump: "modules/foundry-lordudice/graphics/dice/rough-bump.webp"
   })
     .then(() => {
       dice3d.addColorset({
@@ -173,12 +173,12 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
         font:"Metamorphous"
       },"default");
     });
-	
+
   dice3d.addTexture("pact", {
     name: "🐸 Forgotten Pact",
     composite: "multiply",
-    source: "modules/lordudice/graphics/dice/pact.webp",
-	bump: "modules/lordudice/graphics/dice/pact-bump.webp"
+    source: "modules/foundry-lordudice/graphics/dice/pact.webp",
+	bump: "modules/foundry-lordudice/graphics/dice/pact-bump.webp"
   })
     .then(() => {
       dice3d.addColorset({
@@ -206,8 +206,8 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
   dice3d.addTexture("sun", {
     name: "🐸 Worthy Metal",
     composite: "multiply",
-    source: "modules/lordudice/graphics/dice/sun.webp",
-	bump: "modules/lordudice/graphics/dice/sun.webp"
+    source: "modules/foundry-lordudice/graphics/dice/sun.webp",
+	bump: "modules/foundry-lordudice/graphics/dice/sun.webp"
   })
     .then(() => {
       dice3d.addColorset({
@@ -232,5 +232,5 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
         font:"Metamorphous"
       },"default");
     });
-	
+
 });
