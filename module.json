@@ -1,5 +1,5 @@
 {
-  "id": "lordudice",
+  "id": "foundry-lordudice",
   "title": "Lordu's Custom Dice for Dice So Nice",
   "description": "Additional Dice presets and themes for Dice So Nice. Requires Dice So Nice module to work.",
 
@@ -14,7 +14,7 @@
 		}
   ],
 
-  "version": "0.0.4",
+  "version": "0.0.5",
 	"compatibility": {
 		"minimum": "9",
 		"verified": "10"
@@ -28,6 +28,6 @@
   ],
 
   "url": "https://github.com/TheSchnucki/foundry-lordudice",
-  "manifest": "https://github.com/TheSchnucki/foundry-lordudice/releases/download/0.0.4/module.json",
-  "download": "https://github.com/TheSchnucki/foundry-lordudice/releases/download/0.0.4/module.zip"
+  "manifest": "https://github.com/TheSchnucki/foundry-lordudice/releases/download/0.0.5/module.json",
+  "download": "https://github.com/TheSchnucki/foundry-lordudice/releases/download/0.0.5/module.zip"
 }
